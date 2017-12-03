@@ -1,7 +1,7 @@
 import pymongo
 import matplotlib.pyplot as plt
 from datetime import datetime
-
+# reference official site : https://matplotlib.org/gallery/index.html
 client = pymongo.MongoClient('localhost', 27017)
 db = client["Stock"]  # equal to : client.Stock
 col = db["AllTradeEveryDay"]  # equal to: db.AllTradeEveryDay

@@ -1,0 +1,15 @@
+https://matplotlib.org/faq/troubleshooting_faq.html
+
+Version:           matplotlib.__version__
+Install loaction:  matplotlib.__file__
+configuration：    matplotlib.get_configdir()
+cache location:    matplotlib.get_cachedir()
+
+And Other help:
+1 where are download the installer
+2 see your corrsponding configuration file.
+3 If the problem is reproducible, please try to provide a minimal, standalone Python script that demonstrates the problem.
+  Note: find the place to cause the bug , and can be reproduced.
+4 get helpful debugging information:
+python simple_plot.py --verbose-helpful > output.txt
+python simple_plot.py --verbose-debug > output.txt
